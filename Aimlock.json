@@ -1,16 +1,23 @@
 {
-  "aim_assist": true,
-  "aim_fov": 180,  
-  "aim_smooth": 100,  
-  "aim_bone": "head",
-  "recoil_control": true,
-  "no_shake": true,
-  "lock_speed": 5.0,  
-  "headshot_chance": 100,  
-  "auto_adjust": true,
-  "drag_to_head": true,
-  "drag_force": 5.0,  
-  "bullet_stabilizer": true,
-  "no_overaim": true,
-  "anti_detect": true
+"aim_assist": true,
+"aim_fov": 360,  
+"aim_smooth": 0,  
+"aim_bone": "head",
+"recoil_control": true,
+"no_shake": true,
+"lock_speed": 999.0,  
+"headshot_chance": 100,  
+"auto_adjust": true,
+"drag_to_head": true,
+"drag_force": 999.0,  
+"bullet_stabilizer": true,
+"no_overaim": true,
+"anti_detect": true
+"hard_lock": true,
+"hard_lock_bone": "head"
+"no_shake": true,  
+"stabilize_aim": true,  
+"recoil_control": true,  
+"zero_spread": true  
+"no_overaim": true" 
 }
