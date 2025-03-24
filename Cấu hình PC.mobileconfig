@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>PayloadDisplayName</key>
+    <string>FF Ghim Đầu PC</string>
+    <key>PayloadIdentifier</key>
+    <string>com.ff.ghimdau.pc</string>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadUUID</key>
+    <string>77777777-7777-7777-7777-777777777777</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+    <key>PayloadContent</key>
+    <array>
+        <dict>
+            <key>ProxyType</key>
+            <string>Auto</string>
+            <key>ProxyAutoConfigURLString</key>
+            <string>https://your-proxy-url.com/ff_pc_aim.pac</string>
+            <key>PayloadIdentifier</key>
+            <string>com.ff.proxy</string>
+            <key>PayloadType</key>
+            <string>com.apple.proxy.managed</string>
+            <key>PayloadUUID</key>
+            <string>99999999-9999-9999-9999-999999999999</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+        </dict>
+    </array>
+</dict>
+</plist>
