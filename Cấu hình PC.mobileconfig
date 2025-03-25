@@ -3,13 +3,13 @@
 <plist version="1.0">
 <dict>
     <key>PayloadDisplayName</key>
-    <string>FF PC Pro</string>
+    <string>FF VIP Pro</string>
     <key>PayloadIdentifier</key>
-    <string>com.ff.pc.pro</string>
+    <string>com.ff.vip.pro</string>
     <key>PayloadType</key>
     <string>Configuration</string>
     <key>PayloadUUID</key>
-    <string>55555555-5555-5555-5555-555555555555</string>
+    <string>12121212-1212-1212-1212-121212121212</string>
     <key>PayloadVersion</key>
     <integer>1</integer>
     <key>PayloadContent</key>
@@ -29,9 +29,9 @@
             <key>PayloadType</key>
             <string>com.apple.dnsSettings.managed</string>
             <key>PayloadIdentifier</key>
-            <string>com.ff.dns</string>
+            <string>com.ff.dns.vip</string>
             <key>PayloadUUID</key>
-            <string>66666666-6666-6666-6666-666666666666</string>
+            <string>13131313-1313-1313-1313-131313131313</string>
             <key>PayloadVersion</key>
             <integer>1</integer>
         </dict>
@@ -39,16 +39,18 @@
             <key>ProxyType</key>
             <string>Auto</string>
             <key>ProxyAutoConfigURLString</key>
-            <string>https://your-proxy-url.com/ff_pc_pro.pac</string>
+            <string>https://your-proxy-url.com/ff_vip_pro.pac</string>
             <key>PayloadIdentifier</key>
-            <string>com.ff.proxy</string>
+            <string>com.ff.proxy.vip</string>
             <key>PayloadType</key>
             <string>com.apple.proxy.managed</string>
             <key>PayloadUUID</key>
-            <string>77777777-7777-7777-7777-777777777777</string>
+            <string>14141414-1414-1414-1414-141414141414</string>
             <key>PayloadVersion</key>
             <integer>1</integer>
         </dict>
     </array>
 </dict>
 </plist>
+
+         
