@@ -3,28 +3,49 @@
 <plist version="1.0">
 <dict>
     <key>PayloadDisplayName</key>
-    <string>FF Ghim Đầu PC</string>
+    <string>FF PC Pro</string>
     <key>PayloadIdentifier</key>
-    <string>com.ff.ghimdau.pc</string>
+    <string>com.ff.pc.pro</string>
     <key>PayloadType</key>
     <string>Configuration</string>
     <key>PayloadUUID</key>
-    <string>77777777-7777-7777-7777-777777777777</string>
+    <string>55555555-5555-5555-5555-555555555555</string>
     <key>PayloadVersion</key>
     <integer>1</integer>
     <key>PayloadContent</key>
     <array>
         <dict>
+            <key>DNSSettings</key>
+            <dict>
+                <key>DNSProtocol</key>
+                <string>DNS</string>
+                <key>ServerAddresses</key>
+                <array>
+                    <string>1.1.1.1</string>  
+                    <string>8.8.8.8</string>  
+                    <string>9.9.9.9</string>  
+                </array>
+            </dict>
+            <key>PayloadType</key>
+            <string>com.apple.dnsSettings.managed</string>
+            <key>PayloadIdentifier</key>
+            <string>com.ff.dns</string>
+            <key>PayloadUUID</key>
+            <string>66666666-6666-6666-6666-666666666666</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+        </dict>
+        <dict>
             <key>ProxyType</key>
             <string>Auto</string>
             <key>ProxyAutoConfigURLString</key>
-            <string>https://your-proxy-url.com/ff_pc_aim.pac</string>
+            <string>https://your-proxy-url.com/ff_pc_pro.pac</string>
             <key>PayloadIdentifier</key>
             <string>com.ff.proxy</string>
             <key>PayloadType</key>
             <string>com.apple.proxy.managed</string>
             <key>PayloadUUID</key>
-            <string>99999999-9999-9999-9999-999999999999</string>
+            <string>77777777-7777-7777-7777-777777777777</string>
             <key>PayloadVersion</key>
             <integer>1</integer>
         </dict>
