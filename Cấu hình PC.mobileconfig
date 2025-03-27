@@ -1,1 +1,46 @@
-``` <?xml version="1.0" encoding="UTF-8"?> <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd"> <plist version="1.0">   <dict>     <key>PayloadContent</key>     <dict>       <key>PayloadDescription</key>       <string>Cấu hình hỗ trợ kéo tâm</string>       <key>PayloadDisplayName</key>       <string>Hỗ trợ kéo tâm</string>       <key>PayloadIdentifier</key>       <string>com.example.focus</string>       <key>PayloadOrganization</key>       <string>Tên tổ chức</string>       <key>PayloadType</key>       <string>Configuration</string>       <key>PayloadUUID</key>       <string>UUID của cấu hình</string>     </dict>     <key>Payload</key>     <array>       <dict>         <key>PayloadContent</key>         <dict>           <key>FocusMode</key>           <true/>           <key>FocusModeAllowList</key>           <array>             <string>com.apple.Mail</string>             <string>com.apple.Notes</string>           </array>         </dict>         <key>PayloadDescription</key>         <string>Cấu hình hỗ trợ kéo tâm</string>         <key>PayloadDisplayName</key>         <string>Hỗ trợ kéo tâm</string>         <key>PayloadIdentifier</key>         <string>com.example.focus</string>         <key>PayloadType</key>         <string>com.apple.focus</string>       </dict>     </array>   </dict> </plist> ```
+```
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>PayloadContent</key>
+    <dict>
+      <key>PayloadDescription</key>
+      <string>Cấu hình hỗ trợ kéo tâm</string>
+      <key>PayloadDisplayName</key>
+      <string>Hỗ trợ kéo tâm</string>
+      <key>PayloadIdentifier</key>
+      <string>com.example.focus</string>
+      <key>PayloadOrganization</key>
+      <string>Tên tổ chức</string>
+      <key>PayloadType</key>
+      <string>Configuration</string>
+      <key>PayloadUUID</key>
+      <string>UUID của cấu hình</string>
+    </dict>
+    <key>Payload</key>
+    <array>
+      <dict>
+        <key>PayloadContent</key>
+        <dict>
+          <key>FocusMode</key>
+          <true/>
+          <key>FocusModeAllowList</key>
+          <array>
+            <string>com.apple.Mail</string>
+            <string>com.apple.Notes</string>
+          </array>
+        </dict>
+        <key>PayloadDescription</key>
+        <string>Cấu hình hỗ trợ kéo tâm</string>
+        <key>PayloadDisplayName</key>
+        <string>Hỗ trợ kéo tâm</string>
+        <key>PayloadIdentifier</key>
+        <string>com.example.focus</string>
+        <key>PayloadType</key>
+        <string>com.apple.focus</string>
+      </dict>
+    </array>
+  </dict>
+</plist>
+```
